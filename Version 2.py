@@ -6,6 +6,6 @@ while len(input_list) < max_length_list:
     input_list.append(item)
     list_length += 1
 print("Wartosci kwadratow" + str(input_list) + "")
-S = int(input("Rozcieczenie"))
-Ml = int(input("Ilosc Ml"))
-print('%.2E' % (((((sum(input_list)/max_length_list*S)*250)/max_length_list)*1000)*Ml))
+s = int(input("Rozcieczenie"))
+ml = int(input("Ilosc Ml"))
+print('%.2E' % (((((sum(input_list)/max_length_list*s)*250)/max_length_list)*1000)*ml))
